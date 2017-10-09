@@ -16,7 +16,7 @@ def render_response():
             response = 'Thats my favorite color too!'
         else:
             response = 'ewww'
-        renturn render_template('response.html', response = responce)
+        renturn render_template('response.html', response = response)
     
     
 if __name__=="__main__":

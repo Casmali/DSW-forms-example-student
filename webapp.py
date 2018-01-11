@@ -11,6 +11,7 @@ def render_response():
         color = request.args['color']
         #The request object stores information that was sent by the client to the server.
         #the args is a multidict
+        response = ''
         #the way we get info from args is that it is visible in a url. - the information in args is visible in the url for hte page being requested(ex. .../response?color=blue)
         if color is 'black':
             response = 'Thats my favorite color too!'

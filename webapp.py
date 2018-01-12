@@ -13,7 +13,7 @@ def render_response():
         #the args is a multidict
         response1 = ''
         #the way we get info from args is that it is visible in a url. - the information in args is visible in the url for hte page being requested(ex. .../response?color=blue)
-        if color is 'black':
+        if color == 'black':
             response1 = 'Thats my favorite color too!'
         else:
             response1 = 'ewww'
